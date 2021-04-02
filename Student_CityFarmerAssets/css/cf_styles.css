@@ -1,0 +1,57 @@
+/* Emmanuel Galvan 4/2/2021 */
+@font-face {
+    font-family: 'quicksand';
+    src: url('../fonts/Quicksand-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+body{
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+main{
+background-color: #C5A98B;
+padding: 10px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+main ul{
+	list-style: url('../images/tomatoResized.png');
+}
+h1{
+	font-family: 'Righteous';
+}
+h2{
+	font-family: 'quicksand';
+}
+footer{
+	font-size: 0.75em;
+	text-align: center;
+	padding: 10px;
+	background-color:darkolivegreen;
+}
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+clear: both;
+}
