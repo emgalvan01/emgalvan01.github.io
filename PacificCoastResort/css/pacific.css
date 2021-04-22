@@ -1,0 +1,95 @@
+body 
+{ 
+	background-color: #FFFFFF;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header 
+{ 
+	background-color: #000033;
+    color: #FFFFFF; 
+	background-image: url(../images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat; 
+	line-height: 400%;
+	text-indent: 1em;
+}
+nav
+{ 
+	background-color: #90C7E3;
+    font-weight: bold;
+}
+
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+h1 
+{ 
+	margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	
+h2 
+{ 
+	display: none;
+	color: #3399CC; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	 
+h3 
+{ 
+	color: #000033;
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+
+main img{
+	display: none;
+}
+
+main ul 
+{ 
+	list-style-image: url(../images/marker.gif); 
+} 
+
+footer 
+{ 
+	background-image: linear-gradient(white, #90C7E3);
+	font-size: 75%;
+    font-style: bold;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', serif;
+}
+	   
+dt 
+{ 
+	color: #000033; 
+}
+
+.resort 
+{ 
+	color: #5C7FA3; 
+    font-weight: bold;
+}
+
+#contact
+{ 
+	font-size: 90%; 
+}
+
+@media screen and (min-width:641px){
+	nav a{
+		text-decoration: none;
+	}
+	main img{
+		display: block;
+		width: 100%;
+	}
+	nav ul li{
+		display: inline;
+	}
+	h2{
+		display: block;
+	}
+}
