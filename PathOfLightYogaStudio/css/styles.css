@@ -1,0 +1,65 @@
+/* Emmanuel Galvan 4.23.2021 */
+
+main ul{
+    list-style-image: url('../images/yogabullet.png');
+    margin-left: 3em;
+}
+
+.schedule{
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+td{
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+footer{
+    padding: .5em;
+}
+
+address{
+    margin-bottom: .5em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-image: url('../images/yogamobile.png');
+}
+
+img{
+    display: none;
+}
+
+/*//////// TABLET MODE ////////*/
+@media screen and (min-width:641px){
+    nav ul li{
+        display: inline-block;
+    }
+    body{
+        background-image: none;
+        background-color: #f5f5f5;
+    }
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    header{
+        background-image: none;
+        background-image: url('../images/lilyheader.jpg');
+	    background-position: right;
+	    background-repeat: no-repeat;
+    }
+}
