@@ -10213,7 +10213,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(255, 0, 0, 0.2);
   align-items: center;
   justify-content: center;
   opacity: 0;
