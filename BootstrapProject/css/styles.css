@@ -2429,7 +2429,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -2456,7 +2456,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: rgb(255, 162, 162);
   border-color: #fec503;
-  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -2469,7 +2469,7 @@ fieldset:disabled a.btn {
   border-color: #f3bd01;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 
 .btn-secondary {
@@ -2486,7 +2486,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #5a6268;
   border-color: #545b62;
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
@@ -2499,7 +2499,7 @@ fieldset:disabled a.btn {
   border-color: #4e555b;
 }
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 
 .btn-success {
@@ -2516,7 +2516,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #218838;
   border-color: #1e7e34;
-  box-shadow: 0 0 0 0.2rem rgba(72, 180, 97, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 .btn-success.disabled, .btn-success:disabled {
   color: #fff;
@@ -2546,7 +2546,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #138496;
   border-color: #117a8b;
-  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 .btn-info.disabled, .btn-info:disabled {
   color: #fff;
@@ -2559,7 +2559,7 @@ fieldset:disabled a.btn {
   border-color: #10707f;
 }
 .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus, .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.2);
 }
 
 .btn-warning {
