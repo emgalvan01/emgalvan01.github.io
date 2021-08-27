@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author:    Emmanuel Galvan                
+#Date Created:       08/27/2021                     
+#Version:            0.0                            
+#Date Last Modified: 08/27/2021                     
+#Modified by:        Emmanuel Galvan                
+#Modification log:   
+    
+    Version 0.0 - 08/27/2021 - Mod Log and essential files/folders created. Pulled in a Bootstrap Template.
+                               Linked css, linked js. Customized the content area for the site, Added pictures 
+                               to the following locations: Header and item lists (from Pixabay)
+                               Removed 2 items from item list, Customized the prices, added
+                               email form. Edited form's ID to correspond to the JS.
+                               Added span to display if any errors occured.
+
+ --
+------------------------------------------------------------------------------------------------------------------>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Rental biking company in your local city" />
+    <meta name="author" content="Emmanuel Galvan" />
+    <title>Elapse Bike Rental</title>
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="index.html">Elapse Bike Rental</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#!">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Rentals</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#!">All Rental Products</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#!">Popular Rentals</a></li>
+                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#!">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5" id="header-background">
+      <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">Ride an eBike Today!</h1>
+          <p class="lead fw-normal text-white-50 mb-0">
+            Look at our wide-range selection
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Section-->
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="media/ebikeStealth.jpg"
+                alt="Stealth eBike in matte black"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                    <!-- Product name-->
+                    <h5 class="fw-bolder">Stealth eBike</h5>
+                    <!-- Product reviews-->
+                    <div
+                      class="d-flex justify-content-center small text-warning mb-2"
+                    >
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                    </div>
+                    <!-- Product price-->
+                    $35.00
+                    <span class="text-muted"
+                      >/hr</span>
+                  </div>
+                
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >View options</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem;"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="media/eMountainBike.jpg"
+                alt="Electric Mountain bike in the mountains"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Electric Mountain Bike</h5>
+                  <!-- Product reviews-->
+                  <div
+                    class="d-flex justify-content-center small text-warning mb-2"
+                  >
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                  </div>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$50.00</span
+                  >
+                  $40.00
+                  <span class="text-muted"
+                    >/hr</span>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >View options</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem;"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="media/roadBike.jpg"
+                alt="Road Bike on the trail"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Road Bike</h5>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$20.00</span
+                  >
+                  $10.00
+                  <span class="text-muted"
+                    >/hr</span
+                  >
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >View options</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="media/mountainBike.jpg"
+                alt="Mountain bike on a trail"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Mountain Bike</h5>
+                  <!-- Product reviews-->
+                  <div
+                    class="d-flex justify-content-center small text-warning mb-2"
+                  >
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                    <div class="bi-star-fill"></div>
+                  </div>
+                  <!-- Product price-->
+                  $20.00
+                  <span class="text-muted"
+                    >/hr</span
+                  >
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >View options</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem;"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="media/cruiseBike.jpg"
+                alt="Adult yellow cruise bike"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Cruise Bike</h5>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$15.00</span
+                  >
+                  $8.00
+                  <span class="text-muted">/hr</span>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >View options</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="media/kidsCruiserBike.jpg"
+                alt="Kids cruise bike"
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Kid's Cruise Bike</h5>
+                  <!-- Product price-->
+                  $8.00
+                  <span class="text-muted">/hr</span>
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >View options</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Email NewsLetter -->
+    <section class="page-section">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading bubble">
+            Subscribe to our Newsletter!
+          </h2>
+        </div>
+        <form id="email_form" name="email_form">
+          <div class="row align-items-stretch mb-5">
+            <div>
+              <div>
+                <input
+                  class="form-control"
+                  id="first_name"
+                  type="text"
+                  name="first_name"
+                  placeholder="Your Name *"
+                />
+                <span id="first_name_error">*</span>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="email_1"
+                  type="text"
+                  name="email_1"
+                  placeholder="Your Email *"
+                />
+                <span id="email_1_error">*</span>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="email_2"
+                  type="text"
+                  name="email_2"
+                  placeholder="Confirm Email *"
+                />
+                <span id="email_2_error">*</span>
+                <p class="help-block text-danger"></p>
+              </div>
+          <div class="text-center">
+            <div id="success"></div>
+            <button onclick="joinList()"
+              class="btn btn-primary btn-xl text-uppercase"
+              id="submit"
+              type="submit"
+            >
+              Subscribe
+            </button>
+            <button
+              class="btn btn-primary btn-xl text-uppercase"
+              id="clear_form"
+              type="submit"
+            >
+              Clear
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Elapse Bike Rental 2021
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
