@@ -1,0 +1,123 @@
+/************************************************************************
+*Original Author:     Emmanuel Galvan                              
+*Date Created:        04/13/2021                               
+*Version:             1.0                                   
+*Date Last Modified:  10/01/2021                            
+*Modified by:         Emmanuel Galvan                                 
+*Modification log:  
+
+    Version 0.0 - 04/13/2021 - Basics was finalized
+    Version 1.0 - 04/13/2021 - added mod log, added styling for the error span tags
+
+**********************************************************************/
+
+/* Custom Fonts */
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.woff) format('woff');
+}
+
+html{
+    background-color: rgb(189, 189, 189);
+}
+header img{
+    position: relative;
+    width: 100%;
+}
+header h1{
+    color: white;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    margin-left: 100px;
+}
+nav ul li{
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    position: relative;
+    display: inline;
+    padding: 1em;
+    background-color: maroon;
+}
+nav{
+    background-color: rgb(122, 122, 122);
+    padding: 1em;
+    text-align: left;
+}
+main section ul li{
+    list-style: none;
+    padding: 20px;
+    background-color: maroon;
+}
+#logo{
+    position:absolute;
+    top: 15px;
+    transition:.2s;
+}
+#logo:hover{
+    transform: scale(1.4);
+}
+.boldedterms{
+    font-size: 20px;
+}
+section.leftcolumn{
+    font-family: 'Dela Gothic One', Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 40%;
+}
+section.rightcolumn{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: white;
+}
+section.rightcolumn img{
+    width: 75%;
+}
+hr{
+    width: 50%;
+    border-top: solid;
+}
+span{
+    color: maroon;
+    font-style: italic;
+}
+fieldset{
+    background-color: rgb(60, 60, 60);
+    border-style: none;
+}
+fieldset.form{
+    margin: auto;
+    width: 75%;
+    background-color: maroon;
+}
+form{
+    text-align: left;
+}
+footer{
+    font-family: quicksand, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(122, 122, 122);
+    padding: .5em;
+    text-align: center;
+    width: 100%;
+	clear: left;
+}
+a:hover{
+    transform: scale(2.2);
+    color: gray;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(60, 60, 60);
+}
+#email_1_error, #first_name_error, #comment_error, #phone_error{
+    color: white;
+    padding: 5px;
+}
